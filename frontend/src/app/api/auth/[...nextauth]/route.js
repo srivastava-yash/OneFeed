@@ -16,6 +16,7 @@ const handler = NextAuth({
         async signIn({ profile }) {
             console.log(profile);
             // can get profile.email profile.picture profile.name
+            return true;
         },
 
 
